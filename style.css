@@ -18,7 +18,7 @@ body {
 }
 .dog {
   position: relative;
-  width: 1em;
+  width: 0.75em;
   height: 0.15em;
   font-size: 90vmin;
   animation: walk 10s linear infinite;
@@ -88,8 +88,9 @@ body {
   left: 0;
   top: -75%;
   background-color: #b37149;
-  width: 0.05em;
+  width: 0.08em;
   height: 0.15em;
+  border-right: 50px solid #000;
   border-radius: 0.05em;
   border-width: 0.005em;
   transform: translateX(-50%);
@@ -109,10 +110,10 @@ body {
   height: 0.15em;
 }
 .legs--front {
-  left: 0.55em;
+  left: 0.40em;
 }
 .legs--back {
-  left: 0.075em;
+  left: 0.01em;
 }
 .leg {
   position: absolute;
